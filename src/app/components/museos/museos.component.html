@@ -1,0 +1,17 @@
+<div class="container">
+    <h2> Museos Destacados*</h2>
+    <ul > 
+        <li *ngFor="let museo of museos"> 
+       <!-- <a [routerLink]="['/museo_detalle/{{museo.id}}']" > {{museo.nombre}} </a>   -->
+      
+       <a routerLink="/museo_detalle/{{museo.id}}" > {{museo.nombre}} </a>
+       
+       
+       <!--{{museo.nombre}} 
+        <p>  lo que sea</p>  -->
+
+        </li>
+
+    </ul>
+
+</div>
