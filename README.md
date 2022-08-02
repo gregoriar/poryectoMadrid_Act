@@ -26,9 +26,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Ajustes al Ejercicio
-En los elementos de Museos se agregó:
-https://www.therobotmuseum.eu/. 
-Se ajustó el modelo de la clase Museo, agregando la propiedad Observacion, para contemplar las variantes de horarios y precios, en los museos donde aplique.
-Se retocaron  las imágenes del corrousel del Home, para mostrar los textos descriptivos en color negro sobre la parte inferior de las imagenes (no se agregó copyright).
-Se contempla el redireccionamiento "**" dentro de los path  para capturar el error de solicitud de recurso no existente
+## Exercise Adjustments
+In the Museum elements, the following was added: https://www.therobotmuseum.eu/. The Museum class model was adjusted, adding the Observation property, to contemplate the variations of schedules and prices, in the museums when applicable. The images of the Home corrousel were retouched, to show the descriptive texts in black on the bottom of the images (no copyright was added). The "**" redirection inside the paths is contemplated to catch the non-existing resource request error
